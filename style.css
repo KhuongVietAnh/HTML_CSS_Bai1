@@ -78,6 +78,9 @@ ul li{
     font-size: 17px;
     font-weight: bold;
 }
+.fatcs ul li{
+    margin-bottom: 3px;
+}
 .post__by{
     font-size: 13px;
     margin-left: 55px;
