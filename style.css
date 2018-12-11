@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2018, 9:19:48 AM
+    Author     : VietAnh
+*/
+body{
+    font-family: Georgia,"Times New Roman", Times, serif;
+    font-size: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.profile{
+}
+.profile__info{
+    height: 100px;
+    font-size: 15px;
+    line-height: 16px;
+}
+.fatcs{
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.post{
+    margin-top: 65px;
+}
+.post__comment{
+    background-image: url(Layer1.png);
+    height: 56px;
+    padding-left: 20px;
+}
+.yourcomment{
+    margin-top: 25px;
+    padding-left: 5px;
+}
+.info{
+    padding-left: 10px;
+    height: 100px;
+    float: left;
+    width: 377px;
+    overflow: scroll;
+}
+.profile__title{
+    background-image: url(title_bg.gif);
+    color: #000000;
+    font-family: "Times New Roman";
+    height: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+ul li{
+    list-style: none;
+}
+.fatcs ul{
+    margin-left: 35px;
+    margin-right: 15px;
+}
+.yourcomment >p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.fatcs >p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.post__by{
+    font-size: 13px;
+    margin-left: 55px;
+    margin-top: -13px;
+    margin-bottom: 2px;
+}
+.post__by >a{
+    text-decoration: none;
+}
+.avatar{
+    margin: 0px 15px 0px 15px;
+  /*  height: 90px;
+    width: 100px;*/
+    float: left;
+    max-width: 100%;
+}
+.info :after{
+    clear: left;
+}
+.yourcomment textarea{
+    resize: none;
+}
+.post__comment_one{
+    padding-top: 5px;
+}
+.fatcs ul li:before{
+    content: url(star.png);
+    margin-right: 4px;
+}
