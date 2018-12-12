@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : VietAnh
 */
 body{
-    font-family:"Times New Roman";san-serif;
+    font-family:"Times New Roman",san-serif;
     font-size: 15px;
 }
 *{
